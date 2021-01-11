@@ -15,15 +15,15 @@
 		2166FB8025AA877F0071F94F /* widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2166FB7C25AA877E0071F94F /* widget.intentdefinition */; };
 		2166FB8125AA877F0071F94F /* widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2166FB7C25AA877E0071F94F /* widget.intentdefinition */; };
 		2166FB8425AA877F0071F94F /* widgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2166FB7325AA877E0071F94F /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2166FBCB25AB62AB0071F94F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FBC725AB62AB0071F94F /* CardView.swift */; };
-		2166FBCC25AB62AB0071F94F /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FBC825AB62AB0071F94F /* BlurView.swift */; };
-		2166FBCD25AB62AB0071F94F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FBC925AB62AB0071F94F /* ContentView.swift */; };
-		2166FBCE25AB62AB0071F94F /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FBCA25AB62AB0071F94F /* CustomShape.swift */; };
-		2166FBD425AB63C80071F94F /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FBD325AB63C80071F94F /* ScoresView.swift */; };
 		2166FBE825AB6C730071F94F /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FBE725AB6C730071F94F /* HomepageViewController.swift */; };
 		2166FBEE25AB74590071F94F /* ARControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FBED25AB74590071F94F /* ARControllerView.swift */; };
 		2166FBFC25ABAB0B0071F94F /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FB7A25AA877E0071F94F /* widget.swift */; };
 		2166FC0525ABAB120071F94F /* ScoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FB6125AA765D0071F94F /* ScoreHelper.swift */; };
+		2166FC1925AC4E040071F94F /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FC1825AC4E040071F94F /* CustomShape.swift */; };
+		2166FC2325AC53360071F94F /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FC2225AC53360071F94F /* ScoresView.swift */; };
+		2166FC2D25AC535A0071F94F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FC2C25AC535A0071F94F /* ContentView.swift */; };
+		2166FC3725AC544B0071F94F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FC3625AC544B0071F94F /* CardView.swift */; };
+		2166FC4125AC546C0071F94F /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166FC4025AC546C0071F94F /* BlurView.swift */; };
 		21B0631025AA34A8001C678B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0630F25AA34A8001C678B /* AppDelegate.swift */; };
 		21B0631225AA34A8001C678B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0631125AA34A8001C678B /* SceneDelegate.swift */; };
 		21B0631425AA34A8001C678B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0631325AA34A8001C678B /* ViewController.swift */; };
@@ -87,15 +87,15 @@
 		2166FB7C25AA877E0071F94F /* widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = widget.intentdefinition; sourceTree = "<group>"; };
 		2166FB7D25AA877F0071F94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2166FB7F25AA877F0071F94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2166FBC725AB62AB0071F94F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = ../../../leadership_widgit/leadership_widgit/homescreen/CardView.swift; sourceTree = "<group>"; };
-		2166FBC825AB62AB0071F94F /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = ../../../leadership_widgit/leadership_widgit/homescreen/BlurView.swift; sourceTree = "<group>"; };
-		2166FBC925AB62AB0071F94F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../leadership_widgit/leadership_widgit/homescreen/ContentView.swift; sourceTree = "<group>"; };
-		2166FBCA25AB62AB0071F94F /* CustomShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomShape.swift; path = ../../../leadership_widgit/leadership_widgit/homescreen/CustomShape.swift; sourceTree = "<group>"; };
-		2166FBD325AB63C80071F94F /* ScoresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoresView.swift; path = ../../../leadership_widgit/leadership_widgit/ScoresView.swift; sourceTree = "<group>"; };
 		2166FBE725AB6C730071F94F /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		2166FBED25AB74590071F94F /* ARControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARControllerView.swift; sourceTree = "<group>"; };
 		2166FC0A25ABC2D60071F94F /* widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetExtension.entitlements; sourceTree = "<group>"; };
 		2166FC0F25ABC2E70071F94F /* ARTapJump.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ARTapJump.entitlements; sourceTree = "<group>"; };
+		2166FC1825AC4E040071F94F /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		2166FC2225AC53360071F94F /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		2166FC2C25AC535A0071F94F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2166FC3625AC544B0071F94F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2166FC4025AC546C0071F94F /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		21B0630C25AA34A8001C678B /* ARTapJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTapJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B0630F25AA34A8001C678B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21B0631125AA34A8001C678B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,12 +174,12 @@
 		2166FBC625AB62950071F94F /* Homepage */ = {
 			isa = PBXGroup;
 			children = (
-				2166FBC825AB62AB0071F94F /* BlurView.swift */,
-				2166FBC725AB62AB0071F94F /* CardView.swift */,
-				2166FBC925AB62AB0071F94F /* ContentView.swift */,
-				2166FBD325AB63C80071F94F /* ScoresView.swift */,
-				2166FBCA25AB62AB0071F94F /* CustomShape.swift */,
 				2166FBED25AB74590071F94F /* ARControllerView.swift */,
+				2166FC1825AC4E040071F94F /* CustomShape.swift */,
+				2166FC2225AC53360071F94F /* ScoresView.swift */,
+				2166FC2C25AC535A0071F94F /* ContentView.swift */,
+				2166FC3625AC544B0071F94F /* CardView.swift */,
+				2166FC4025AC546C0071F94F /* BlurView.swift */,
 			);
 			path = Homepage;
 			sourceTree = "<group>";
@@ -422,22 +422,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				2166FB8125AA877F0071F94F /* widget.intentdefinition in Sources */,
-				2166FBCC25AB62AB0071F94F /* BlurView.swift in Sources */,
+				2166FC1925AC4E040071F94F /* CustomShape.swift in Sources */,
 				21B0634B25AA3DF5001C678B /* SCNVector3Extension.swift in Sources */,
 				21B0635A25AA4BB3001C678B /* NodeExtension.swift in Sources */,
 				2166FBE825AB6C730071F94F /* HomepageViewController.swift in Sources */,
+				2166FC4125AC546C0071F94F /* BlurView.swift in Sources */,
 				21B0631425AA34A8001C678B /* ViewController.swift in Sources */,
 				21B0631025AA34A8001C678B /* AppDelegate.swift in Sources */,
 				2166FBEE25AB74590071F94F /* ARControllerView.swift in Sources */,
 				2166FB6B25AA7CD30071F94F /* BubbleTextNode.swift in Sources */,
+				2166FC3725AC544B0071F94F /* CardView.swift in Sources */,
 				21B0634625AA3A6E001C678B /* NexDirectionEnum.swift in Sources */,
-				2166FBCE25AB62AB0071F94F /* CustomShape.swift in Sources */,
-				2166FBCB25AB62AB0071F94F /* CardView.swift in Sources */,
 				2166FB6225AA765D0071F94F /* ScoreHelper.swift in Sources */,
-				2166FBCD25AB62AB0071F94F /* ContentView.swift in Sources */,
+				2166FC2325AC53360071F94F /* ScoresView.swift in Sources */,
+				2166FC2D25AC535A0071F94F /* ContentView.swift in Sources */,
 				21B0631225AA34A8001C678B /* SceneDelegate.swift in Sources */,
 				21B0635525AA4258001C678B /* ColorExtension.swift in Sources */,
-				2166FBD425AB63C80071F94F /* ScoresView.swift in Sources */,
 				21B0635025AA4133001C678B /* BottleNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
